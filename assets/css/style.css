@@ -208,7 +208,7 @@ h6 {
   padding: 10px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #ffc451;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -1128,9 +1128,10 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: #040101;
   padding: 60px 0;
 }
+
 
 .team .member {
   margin-bottom: 20px;
