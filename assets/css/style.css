@@ -1246,6 +1246,12 @@ section {
   width: 100%;
   background: #fff;
 }
+.contact button {
+  color: #ffc451;
+  border: 100;
+  border-radius: 100;
+  
+}
 
 .contact .info i {
   font-size: 20px;
