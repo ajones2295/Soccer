@@ -1247,12 +1247,22 @@ section {
   background: #fff;
 }
 .contact button {
-  color: #ffc451;
-  border: 100;
-  border-radius: 100;
+  background-color: #ffc451;
+  font-size: 16px;
+  padding: 32px 16px;
+  color:backdrop
+  border: 2px solid #18d26e;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  width: 50%;
   
 }
 
+.contact button:hover {
+background-color: #000000;
+color:#ffffff;
+
+}
 .contact .info i {
   font-size: 20px;
   background: #ffc451;
