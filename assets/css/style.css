@@ -536,8 +536,8 @@ section {
   display: inline-block;
   background: #ffde9e;
   margin: 4px 10px;
-}
 
+}
 .section-title p {
   margin: 0;
   margin: 0;
@@ -1246,7 +1246,15 @@ section {
   width: 100%;
   background: #fff;
 }
+.contact h1{
+  color: #000000;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  
+}
 .contact button {
+  align-items:center;
   background-color: #ffc451;
   font-size: 16px;
   padding: 32px 16px;
@@ -1254,7 +1262,7 @@ section {
   border: 2px solid #18d26e;
   transition-duration: 0.4s;
   border-radius: 18px;
-  width: 50%;
+  width: 250px;
   
 }
 
@@ -1284,11 +1292,26 @@ color:#ffffff;
   margin-bottom: 5px;
   color: #151515;
 }
-
+.contact .section-title h2{
+  align-items: center;
+  color: #000000; 
+  font-size: 30px;
+  text-transform: uppercase;
+  margin:auto;
+  padding: 32px 16px;
+}
+.contact .section-title p {
+  color: #000000;
+  font-size: 15px;
+  text-transform: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  padding: 5%;
+  
+}
 .contact .info p {
   padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
+  margin-bottom:auto;
+  font-size: 15px;
   color: #484848;
 }
 
