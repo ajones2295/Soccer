@@ -685,6 +685,9 @@ section {
   margin-bottom: 20px;
   transition: 0.3s;
 }
+.services .icon-box li{
+  font-size: 10px;
+}
 
 .services .icon-box .icon i {
   color: #151515;
@@ -706,12 +709,12 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #151515;
+  color: #ffc451;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: rgb(255, 255, 255)
 }
  .services .icon h3 a{
   color: #040101
