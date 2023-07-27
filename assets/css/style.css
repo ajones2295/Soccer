@@ -12,8 +12,23 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  cursor: url('../img/soccer3.png'), auto;
+}
+.cursor{
+  width: 20px;
+  height: 20px;
+  color: #955353;
+  animation: cursorAnim .5s infinite alternate;
 }
 
+@keyframes cursorAnim {
+  from {
+    transform: scale(1);
+  }
+  to{
+    transform: scale(.7);
+  }
+}
 a {
   color: #ffc451;
   text-decoration: none;
