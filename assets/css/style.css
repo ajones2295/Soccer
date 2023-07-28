@@ -12,12 +12,10 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  cursor: url('../img/soccer3.png'), auto;
 }
 .cursor{
   width: 20px;
   height: 20px;
-  animation: cursorAnim .5s infinite alternate;
 }
 
 @keyframes cursorAnim {
@@ -421,7 +419,7 @@ h6 {
 #hero {
   width: 100% auto;
   height: 100vh auto;
-  background: url("../img/pexels_videos_2657257\ \(2160p\).mp4") top center;
+  background: url("../img/newbackgroundvid.mp4") top center;
   background-size: cover;
   position: relative;
 }
