@@ -1172,7 +1172,30 @@ section {
   padding: 60px 0;
 }
 
+.team button {
+  display: inline-block;
+  align-items:center;
+  background-color: #ffc451;
+  font-size: 10px;
+  padding: 2%;
+  color:backdrop
+  border: 2px solid #18d26e;
+  transition-duration: 0.4s;
+  border-radius: 18px;
+  width: 150px;
+}
 
+.team button:hover {
+background-color: #000000;
+color:#ffffff;
+}
+.team ul{
+  display: table;
+  margin: 0 auto;
+}
+.team li{
+  align-items: center;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1184,6 +1207,7 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  display: inline-block;
 }
 
 .team .member .social {
@@ -1199,15 +1223,15 @@ section {
 .team .member .social a {
   transition: color 0.3s;
   color: #151515;
-  margin: 0 3px;
+  margin: auto;
   border-radius: 4px;
   width: 36px;
   height: 36px;
   background: rgba(255, 255, 255, 0.8);
   transition: ease-in-out 0.3s;
-  color: #484848;
-  display: inline-flex;
-  justify-content: center;
+  color: #ffc451;
+  display:contents;
+  justify-content:baseline;
   align-items: center;
 }
 
@@ -1223,9 +1247,9 @@ section {
 
 .team .member .member-info {
   padding: 25px 15px;
+  align-items: center
+  
 }
-
-
 
 .team .member .member-info h4 {
   font-weight: 700;
@@ -1235,7 +1259,7 @@ section {
 }
 
 .team .member .member-info span {
-  display: block;
+  display: inline-block;
   font-size: 13px;
   font-weight: 400;
   color: #aaaaaa;
