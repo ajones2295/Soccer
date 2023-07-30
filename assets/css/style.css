@@ -331,9 +331,12 @@ h6 {
   background: url("../img/newbackgroundvid.mp4") top center;
   background-size: cover;
   position: relative;
-
-  
 }
+#hero-mobile{
+  background: url("../img/newbackgroundvid.mp4") auto;
+}
+
+
 #hero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
