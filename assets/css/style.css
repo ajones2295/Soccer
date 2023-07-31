@@ -335,8 +335,8 @@ h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(95, 85, 85, 0.6);
-  position: absolute;
+  background: url(../img/newbackgroundvid.mp4);
+  position: cover;
   bottom: 0;
   top: 0;
   left: 0;
@@ -361,7 +361,9 @@ h6 {
 #hero h1 span {
   color: #ffc451;
 }
-
+#hero h3 span{
+  color: ;
+}
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
