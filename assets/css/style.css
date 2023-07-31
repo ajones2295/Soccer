@@ -328,14 +328,14 @@ h6 {
 #hero {
   width: 100% auto;
   height: 100vh auto;
-  background-image: url(../img/newbackgroundvid.mp4);
+  background: url("../img/newbackgroundvid.mp4");
   background-size: cover;
   position: relative;
-}
 
+}
 #hero:before {
   content: "";
-  background: rgb(0, 0, 0);
+  background: rgba(161, 140, 140, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -781,6 +781,7 @@ section {
   transition-duration: 0.4s;
   border-radius: 18px;
   width: 150px;
+
 }
 
 .team button:hover {
