@@ -327,18 +327,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100% auto;
-  height: 100vh auto;
-  background: url("../img/newbackgroundvid.mp4");
+  height: 100vh ;
+  background: url("../img/newbackgroundvid.mp4") top right;
   background-size: cover;
   position: relative;
 
 }
 #hero:before {
-  width: 100% auto;
-  height: 100vh auto;
   content: "";
-  background: url(../img/newbackgroundvid.mp4);
-  position: cover;
+  position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
@@ -363,9 +360,7 @@ h6 {
 #hero h1 span {
   color: #ffc451;
 }
-#hero h3 span{
-  color: ;
-}
+
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 10px 0 0 0;
