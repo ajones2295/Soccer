@@ -225,7 +225,6 @@ h6 {
   font-size: 15px;
   font-weight: 600;
   color: #ffc451;
-  background-color: #000000;
   white-space:nowrap;
   transition: 0.3s;
 }
@@ -244,15 +243,8 @@ h6 {
   color: #ffc451;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
 
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
+
 
 /**
 * Mobile Navigation 
@@ -332,19 +324,15 @@ h6 {
 #hero {
   width: 100% auto;
   height: 100vh ;
+  background: url("../img/newbackgroundvid.mp4");
   background-size: cover;
+  background-position: center;
   position: relative;
-} 
 
-#hero::before{
-  width: 100% auto;
-  height: 100vh auto;
-  background: url("../img/newbackgroundvid.mp4") top right;
-  background-size: cover;
-  position:relative;
 }
 #hero:before {
   content: "";
+  color: rgba(0, 0, 0, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
