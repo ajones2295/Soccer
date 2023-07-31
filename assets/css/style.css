@@ -334,6 +334,8 @@ h6 {
 
 }
 #hero:before {
+  width: 100% auto;
+  height: 100vh auto;
   content: "";
   background: url(../img/newbackgroundvid.mp4);
   position: cover;
