@@ -328,23 +328,9 @@ h6 {
 #hero {
   width: 100% auto;
   height: 100vh auto;
-  
+  background-image: url(../img/newbackgroundvid.mp4);
   background-size: cover;
   position: relative;
-}
-#hero-mobile{
-  background: url("../img/newbackgroundvid.mp4") auto;
-}
-
-
-#hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 
 #hero .container {
