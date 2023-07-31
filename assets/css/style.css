@@ -199,18 +199,20 @@ h6 {
 */
 .navbar {
   padding: 0;
+
 }
 
 .navbar ul {
   margin: 0;
   padding: 0;
-  display: flex;
+  display:flex;
   list-style: none;
-  align-items: center;
+  align-items:center;
 }
 
 .navbar li {
   position: relative;
+  align-items: center;
 }
 
 .navbar a,
@@ -218,11 +220,13 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  width: auto;
+  padding: 20px 0 10px 30px;
   font-size: 15px;
   font-weight: 600;
   color: #ffc451;
-  white-space: nowrap;
+  background-color: #000000;
+  white-space:nowrap;
   transition: 0.3s;
 }
 
@@ -254,7 +258,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #090101;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -328,10 +332,16 @@ h6 {
 #hero {
   width: 100% auto;
   height: 100vh ;
-  background: url("../img/newbackgroundvid.mp4") top right;
   background-size: cover;
   position: relative;
+} 
 
+#hero::before{
+  width: 100% auto;
+  height: 100vh auto;
+  background: url("../img/newbackgroundvid.mp4") top right;
+  background-size: cover;
+  position:relative;
 }
 #hero:before {
   content: "";
@@ -383,6 +393,7 @@ h6 {
 
 #hero .icon-box h3 {
   font-weight: 700;
+  font-family: bold;
   margin: 10px 0 0 0;
   padding: 0;
   line-height: 1;
@@ -405,7 +416,7 @@ h6 {
 
 @media (min-width: 1024px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment:fixed;
   }
 }
 
