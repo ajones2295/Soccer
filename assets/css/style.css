@@ -593,15 +593,15 @@ section {
 .services .icon-box {
   text-align: center;
   border: 15px solid #ffc451;
-  padding: 80px 20px;
+  padding:2%;
   transition: all ease-in-out 0.3s;
   background: #100000;
 }
 
 .services .icon-box .icon {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 35px;
+  height: 35px;
   background: #ffc451;
   border-radius: 4px;
   display: flex;
@@ -616,19 +616,19 @@ section {
 
 .services .icon-box .icon i {
   color: #151515;
-  font-size: 28px;
+  font-size: 25px;
   transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 {
-  font-weight: 700;
+  font-weight: 10;
   margin-bottom: 15px;
   font-size: 24px;
 }
 .services .icon-box h3 a{
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 15px;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
   background-color: #050300;
 }
