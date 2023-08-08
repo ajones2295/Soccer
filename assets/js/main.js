@@ -1,5 +1,5 @@
 /**
-* Template Name: Gp
+* Template Name: Coach
 * Updated: May 30 2023 with Bootstrap v5.3.0
 * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
 * Author: BootstrapMade.com
