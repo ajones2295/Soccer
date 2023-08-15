@@ -120,11 +120,11 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
+# Enable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
   [data-aos-delay] {
-    transition-delay: 0 !important;
+    transition-delay: 1000ms !important;
   }
 }
 
@@ -323,7 +323,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100% auto;
-  height: 100vh auto ;
+  height: 1vh auto ;
   background: url("../video/newbackgroundvid.mp4");
   background-size: cover;
   background-position: center;
