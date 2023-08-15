@@ -323,8 +323,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100% auto;
-  height: 100vh ;
-  background: url("../img/newbackgroundvid.mp4");
+  height: 100vh auto ;
+  background: url("../video/newbackgroundvid.mp4");
   background-size: cover;
   background-position: center;
   position: relative;
